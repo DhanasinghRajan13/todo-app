@@ -22,15 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# Ignore all components
+src/component/*
 
-
-src/components/component1.jsx
-src/components/component2.jsx
-src/components/component3.jsx
-src/components/component5.jsx
-src/components/component6.jsx
-src/components/component7.jsx
-src/components/component8.jsx
-
-
-node_modules
+# Allow only component4.jsx
+!src/component/component4.jsx
